@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume</title>
+    <style>
+    @media only screen and (min-width: 1025px){
+        body{
+            background-color:orchid;
+        }
+        h1{
+            font-size: 60px;
+        }
+        .flex{
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+        }
+        .flex div{
+            padding : 3%;
+            border-style:solid;
+            border-radius: 3%;
+            background-color: yellow;
+        }
+        .box1{
+            margin-left: 15%;
+            border-style: solid;
+            padding:3%;
+        }
+        .box2{
+            margin-right: 15%;
+            border-style:15%;
+            padding:3%;
+        }
+    }    
+        .c {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+        @media only screen and (min-width: 320px) and (max-width: 480px){
+            .flex{
+               display:flex;
+               flex-direction: column;
+               justify-content: space-around;
+            }
+            h1{
+                font-size: 30px;
+            }
+            body{
+            background-color:limegreen;
+        }
+            .flex div{
+            padding : 3%;
+            border-style:solid;
+            border-radius: 3%;
+            background-color:pink;
+            
+        }
+            .box1{
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 5%;
+                width:80%;
+            }
+            .box2{
+                margin-left:auto;
+                margin-right: auto;
+                width:80%;
+            }
+        }
+        @media only screen and (min-width: 481px) and (max-width: 767px){
+            .flex{
+               display:flex;
+               flex-direction: column;
+               justify-content: space-around;
+            }
+            h1{
+                font-size: 40px;
+            }
+            .flex div{
+            padding : 3%;
+            border-style:solid;
+            border-radius: 3%;
+            background-color:blue;
+        }
+        body{
+            background-color:magenta;
+        }
+            .box1{
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 5%;
+                width:80%;
+            }
+            .box2{
+                margin-left:auto;
+                margin-right: auto;
+                width:80%;
+            }
+        }
+        @media only screen and (min-width: 768px) and (max-width: 1024px){
+            .flex{
+               display:flex;
+               flex-direction: column;
+               justify-content: space-around;
+            }
+            h1{
+                font-size: 50px;
+            }
+            body{
+            background-color:orchid;
+        }
+            .flex div{
+            padding : 3%;
+            border-style:solid;
+            border-radius: 3%;
+            background-color:greenyellow;
+        }
+            .box1{
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 5%;
+                width:60%;
+            }
+            .box2{
+                margin-left:auto;
+                margin-right: auto;
+                width:60%;
+            }
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 style="color:chocolate;text-align:center;">Resume</h1>
+    <div class="flex">
+        <div class="box1">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAM1BMVEXk5ueutLfn6eqrsbTp6+zg4uOwtrnJzc/j5earsbW0uby4vcDQ09XGyszU19jd3+G/xMamCvwDAAAFLklEQVR4nO2d2bLbIAxAbYE3sDH//7WFbPfexG4MiCAcnWmnrzkjIRaD2jQMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMwzAMw5wQkHJczewxZh2lhNK/CBOQo1n0JIT74/H/qMV0Z7GU3aCcVPuEE1XDCtVLAhgtpme7H0s1N1U7QjO0L8F7llzGeh1hEG/8Lo7TUmmuSrOfns9xnGXpXxsONPpA/B6OqqstjC6Ax/0ujkNdYQQbKNi2k64qiiEZ+ohi35X+2YcZw/WujmslYewiAliVYrxgJYrdwUmwXsU+RdApUi83oNIE27YvrfB/ZPg8+BJETXnqh9CVzBbTQHgojgiCvtqU9thFJg/CKz3VIMKMEkIXxIWqIpIg2SkjYj+xC816mrJae2aiWGykxRNsW0UwiJghJDljYI5CD8GRiCtIsJxizYUPQ2pzItZy5pcisTRdk/a9m4amtNNfBuQkdVhSaYqfpNTSFGfb9GRIakrE2Pm+GFLaCQPqiu0OpWP+HMPQQcgQMiQprWXNmsVwIjQjYi/ZrhAqNTCgr2gu0Jnz85RSSjso0HkMFZ0YZjKkc26a/jlmh9JiDyDxi9oeorTYAzZkwwoMz19pzj9bnH/GP/+qbchjSGflneWYhtTuKdMOmNKZcJ5TjInQKcYXnESd/jQxy0ENpULTNGOGgxpap/oyw9pbUAqhfx2Dbkhovvfgz4iUzoM9+GlK6/Mh4q29hyC1mwro30hpVVLPF9wYQr71RazOeM5/cw81iBRD+A03aM9/C/obbrKjbYSpCmIVG3qT/Q8oeUo3Rz0IL7vI1tEbCB9pSiu8I/aV8x3Kg/BGWrWp4ZVs0nZfmAoEG4h/61yHYIJiFSl6Q0Vk6tTW1N8kYp8hdOkfHYYMXd2Qft+8CYwqYDSKvqIh+MCF8Wgca2u/cwdgeW3TtuVn6+1oBs3yLo5C2JpK6CvQzGpfUkz9UG/87gCsi5o2LIXolxN0FbwAsjOLEr+YJmXn7iR6N0BCt5p5cMxm7eAsfS+/CACQf4CTpKjzgkvr2cVarVTf96372yut7XLJ1sa7lv6VcfgYrWaxqr3Wlo1S6pvStr22sxOtTNPLzdY3nj20bPP+ejFdJYkLsjGLdtPBEbe/mr2bQKiXWJDroA+vtzc0p9aahuwqHMDYrQEXHEw9jwQl3drMpts9JBU1SdktPe5FBRdJQ6bwXBpa57ib2A8kukQDzMjh++Uo7Fo6Wd02Pkf4fknqoo4HtvAIjsqUcjx6DIPgWCaOML9rKI/oqD9/lgNrn+eF+p7j8tnzHBiR7+kdUGw/+V1Kzkc75mMy6U+FMaxjPibiM1U1uGM+puInHpmALZCgP4pt7i840MV8+0R1zPsRB6UTcqpizncYwZ89syDydfyWCwXB1l8/zRNGWbTG/GHKUm9AkxHMc/EGSk3z2+ArEhPEV5TUBLEvUGFcjEUH80J/jveTGOAJEljJbILWGQT3zRYiwuKsUXN1EEJAzBhRJFll7mBUG7KD8EqPkKekBREaL8hMDZLQSG6AQjtHPYmvTQnX0TtpC1SYCe2YdkkyLP3jj5BSbKiuR585eQhTgoje6yIb0Yb0C+mV6EYvebqw5SDy2WmubogZiF2AVxPC2FpDf8H2Q9QWo6IkjUxTWVEI3WY/wrCeSuqJ+eRWzXR/JXwgVjUMozbCOfoEZiSiKVGepqv5CJ8RyR4D7xBeamqa7z3BJ/z17JxuBPdv93d/a2Ki878MMAzDMAzDMAzDMAzDMF/KP09VUmxBAiI3AAAAAElFTkSuQmCC" alt="photo" class="c" style="border-style:solid;border-radius:3%;margin-bottom: 3%;margin-left: auto;margin-right: auto;">
+            <table style="margin-left: auto;margin-right: auto;">
+                <tr>
+                  <td><b>Name</b></td>
+                  <td>:</td>
+                  <td>Harika</td>
+                </tr>
+                <tr>
+                  <td><b>Surname</b></td>
+                  <td>:</td>
+                  <td>Bangaru</td>
+                </tr>
+                <tr>
+                    <td><b>Date of Birth</b></td>
+                    <td>:</td>
+                    <td>13 sep 2001</td>
+                 </tr>
+                  <tr>
+                    <td><b>Phone Number</b></td>
+                    <td>:</td>
+                    <td>1234567890</td>
+                  </tr>
+                  <tr>
+                    <td><b>email</b></td>
+                    <td>:</td>
+                    <td>xyz@gmail.com</td>
+                  </tr>
+                  <tr>
+                    <td><b>Address</b></td>
+                    <td>:</td>
+                    <td>abc street<br>xyz colony<br>lmn city<br>pqr district<br>123456</td>
+                  </tr>
+              </table>
+        </div>
+        <div class="box2">
+            <table style="margin-left: auto;margin-right: auto;">
+            <tr>
+                <td><b>Career Objective</b></td>
+                <td>:</td>
+                <td>To become a good software technician</td>
+            </tr>
+            <tr>
+                <td><b>Educational Qualification</b></td>
+                <td>:</td>
+                <td></td>
+            </tr>
+        </table>    
+                <table style="border-style:solid;margin-left: auto;margin-right: auto;">
+                    <tr>
+                        <th>Sno</th>
+                        <th>Education</th>
+                        <th>Place of study</th>
+                        <th>Year of study</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Bachelor of Technology</td>
+                        <td>XYZ College,LMN city</td>
+                        <td>2018-2022</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Intermediate</td>
+                        <td>XYZ College,LMN city</td>
+                        <td>2016-2018</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>SSC</td>
+                        <td>XYZ School,LMN city</td>
+                        <td>2015-2016</td>
+                    </tr>
+                </table>
+        <table style="margin-left: auto;margin-right: auto;">
+            <tr>
+                <td><b>Technical Skills</b></td>
+                <td>:</td>
+                <td><ul>
+                    <li>C</li>
+                <li>C++</li>
+                 <li>Python</li>
+                 <Li>R</Li>
+                 <li>HTML & CSS</li>
+                 <li>Java Script</li>
+                 <li>Data Science</li>
+                 <li>Machine learning</li>       
+            </ul></td>
+            </tr>
+            <tr>
+                <td><b>Hobbies</b></td>
+                <td>:</td>
+                <td>xyz</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+</body>
+</html>
