@@ -1,0 +1,35 @@
+{
+    "block1":{
+        "name":"Harika Bangaru",
+        "dob":"13 sep 2001",
+        "phno":"9346735473",
+        "mail":"xyz@gmail.com",
+        "add":["Dno:1-2-3","abc street","abc colony","abc city","lmn district","152364"]
+    },
+    "block2":{
+        "co":"I want to become an efficient software developer.",
+        "edq":[{
+            "sno":1,
+            "edu":"Bachelor of technology",
+            "pos":"xyz city",
+            "yos":"2018-2022",
+            "per":"90.7%"
+        },
+        {
+            "sno":2,
+            "edu":"Intermediate",
+            "pos":"xyz city",
+            "yos":"2016-2018",
+            "per":"98.4%"
+        },
+        {
+            "sno":3,
+            "edu":"SSC",
+            "pos":"xyz city",
+            "yos":"2015-2016",
+            "per":"100%"
+        }],
+        "tech":["C","C++","Python","R","Html and CSS","Java Script","Data Science","Machine learning"],
+        "Hobbies":"xyz"
+    }
+}
